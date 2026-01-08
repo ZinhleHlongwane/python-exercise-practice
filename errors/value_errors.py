@@ -8,3 +8,6 @@ def safe_int_convert(text: str) -> int:
     Returns:
         int: converted number
     """
+    return int(text)
+
+print(safe_int_convert("456"))
